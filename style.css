@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.slider-container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#gameList {
+    margin-top: 20px;
+    max-height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#gameList ul {
+    list-style: none;
+    padding: 0;
+}
+
+#gameList li {
+    margin: 5px 0;
+}
