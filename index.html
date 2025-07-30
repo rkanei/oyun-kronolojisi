@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oyun Kronolojisi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Oyun Kronolojisi</h1>
+    <p>Soldaki kaydırıcıyı kullanarak bir yıl seçin. Aşağıdaki listede o yıl piyasaya çıkan video oyunlarını alfabetik sırayla görebilirsiniz.</p>
+    <div class="slider-container">
+        <label for="yearSlider">Yıl: <span id="yearLabel"></span></label>
+        <input type="range" id="yearSlider" min="1980" max="2025" value="2000" step="1">
+    </div>
+    <div id="gameList"></div>
+    <script src="script.js"></script>
+</body>
+</html>
